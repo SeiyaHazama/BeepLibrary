@@ -35,3 +35,18 @@ void Beep::playBeep2(int speaker){
     }
   }
 }
+
+void Beep::playBeep3(int speaker){
+  for (int i = 0; i < 13; i++) {
+    tone(speaker, music3[i], music3_sec[i]);
+    if (i == 0 | i == 12) {
+      delay(300);
+    } else if (i == 1 | i == 2) {
+      delay(125);
+    } else if (i == 7) {
+      delay(550);
+    } else {
+      delay(250);
+    }
+  }
+}

@@ -7,7 +7,7 @@ Arduinoのtone関数を使って音楽を作り、ライブラリ化しました
 2. 使用する際はインクルードとインスタンス化が必要です。
 
 ### インクルードとインスタンス化
- 
+
 ```
 #include<Beep.h>
 Beep beep;
@@ -15,7 +15,7 @@ Beep beep;
 void setup(){
 ...
 ```
- 
+
 ## 収録曲
 ### `judgeBeep(bool result, int speaker)`
 ビープ音4回
@@ -25,3 +25,6 @@ void setup(){
 
 ### `playBeep2(int speaker)`
 アイネ・クライネ・ナハトムジーク - 第1楽章　（モーツァルト）
+
+### `playBeep3(int speaker)`
+ゆかいな牧場・大阪うまいもんの歌（京橋駅発車メロディーバージョン）
